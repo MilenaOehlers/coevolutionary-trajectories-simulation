@@ -1,9 +1,8 @@
 import mpi # source code: http://www.pik-potsdam.de/~donges/pyunicorn/_modules/pyunicorn/utils/mpi.html
-import math, sys, hashlib, time
+import time
 import numpy as np
 import itertools as itt
 from scipy.integrate import odeint
-from decimal import Decimal
 
 new=1
 n = 2  		# no. of world regions
